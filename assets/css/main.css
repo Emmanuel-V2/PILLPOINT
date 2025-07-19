@@ -15,6 +15,17 @@ body {
   background: #f1f5f9;
 }
 
+  .custom-dropdown-menu {
+    min-width: 350px; /* Aumenta el ancho */
+    padding: 15px 10px;
+    font-size: 16px;
+  }
+
+  /* También puedes aumentar altura si es necesario */
+  .custom-dropdown-menu li {
+    margin-bottom: 25px;
+  }
+
 * {
   margin: 0;
   padding: 0;
@@ -151,9 +162,9 @@ p {
   display: none;
 }
 .card-style .dropdown-menu {
-  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
-  -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+  -webkit-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.07);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.07);
 }
 .card-style .dropdown-menu li:hover a {
   color: #365CF5 !important;
